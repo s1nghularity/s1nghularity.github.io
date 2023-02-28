@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L500 0L500 500L0 500L0 0L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="vlogowhite">
+    <path d="M0 0L500 0L500 500L0 500L0 0L0 0Z" id="Background" fill="#D3D3D3" fill-opacity="0" fill-rule="evenodd" stroke="none" />
+    <g id="Mask-Group">
+      <path d="M0 0L500 0L500 500L0 500L0 0L0 0Z" id="path_1" fill="none" fill-rule="evenodd" stroke="none" />
+      <g clip-path="url(#mask_1)">
+        <g id="Group" transform="translate(-50 -50)">
+          <path d="M0 0L600 0L600 600L0 600L0 0L0 0Z" id="Rectangle" fill="#246A45" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L600 0L600 600L0 600L0 0L0 0Z" id="Rectangle#1" fill="none" fill-rule="evenodd" stroke="none" />
+          <path d="M58 226.051L205.449 226.051L205.449 373.5L58 373.5L58 226.051L58 226.051Z" id="Group" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M67.0854 235.124L196.495 235.124L196.495 364.546L67.0854 364.546L67.0854 235.124L67.0854 235.124Z" id="Group#1" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M257.418 325.92L244.634 325.92L225.721 277.226L238.936 277.226L251.385 313.04L263.834 277.226L276.571 277.226L257.418 325.92L257.418 325.92Z" id="Group#2" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M299.422 325.92L287.069 325.92L287.069 277.226L299.422 277.226L299.422 325.92L299.422 325.92Z" id="Group#3" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M346.593 325.92L333.713 306.768L327.249 313.95L327.249 325.92L314.896 325.92L314.896 277.226L327.249 277.226L327.249 298.293L345.922 277.226L360.239 277.226L342.14 297.383L361.436 325.92L346.593 325.92L346.593 325.92Z" id="Group#4" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M401.914 325.92L394.684 312.227L384.916 312.227L384.916 325.92L372.563 325.92L372.563 277.226L394.349 277.226C400.765 277.226 405.721 278.698 409.24 281.631C412.783 284.575 414.555 288.753 414.555 294.175C414.555 301.717 411.61 306.936 405.745 309.832L415.943 325.92L401.914 325.92L401.914 325.92ZM384.916 302.459L394.349 302.459C397.03 302.459 399.101 301.789 400.573 300.448C402.07 299.107 402.824 297.168 402.824 294.606C402.824 292.117 402.07 290.225 400.573 288.909C399.101 287.604 397.03 286.945 394.349 286.945L384.916 286.945L384.916 302.459L384.916 302.459Z" id="Group#5" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M460.95 316.967L439.691 316.967L436.148 325.92L423.412 325.92L444.432 277.226L457.12 277.226L477.661 325.92L464.446 325.92L460.95 316.967L460.95 316.967ZM457.359 307.534L450.417 289.531L443.282 307.534L457.359 307.534L457.359 307.534Z" id="Group#6" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M541.381 325.92L530.464 325.92L530.369 294.271L518.686 321.037L510.642 321.037L498.959 294.271L498.959 325.92L487.898 325.92L487.898 277.13L501.449 277.13L514.664 306.146L527.879 277.13L541.381 277.13L541.381 325.92L541.381 325.92Z" id="Group#7" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+          <path d="M139.443 327.627L123.882 327.627L100.899 268.495L116.939 268.495L132.07 312.018L147.2 268.495L162.665 268.495L139.443 327.627L139.443 327.627Z" id="Group#8" fill="#246A45" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
