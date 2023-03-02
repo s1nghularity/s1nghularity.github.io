@@ -1,0 +1,60 @@
+header{ min-height:50px; background:lightcyan; }
+footer{ background:#58be66; }
+
+h3{
+  color: #58be66;
+  position: relative;
+}
+
+body {
+  min-height:100vh; 
+  margin:0;
+  position: relative;
+  background-color: #1a1a1a;
+  
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px; 
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: fill;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  overflow: hidden
+}
+
+.myimage {
+  width: 10%;
+  height: 10%; 
+}
+
+.para {
+  color: whitesmoke;
+  text-align: center;
+  margin-left:20px
+}
+
+.welcome {
+  text-align: center;
+}
+
+.about {
+  color: #58be66 ;
+}

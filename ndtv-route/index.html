@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Route From South Delhi to NDTV</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+<style>
+  body { margin: 0; padding: 0; }
+  #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+  .map-overlay {
+    position: absolute;
+    left: 10;
+    top: 10;
+    padding: 10px;
+  }
+  
+  /* From uiverse.io by @adamgiebl with modification for pure HTML and NDTV colors*/
+  .btn {
+  transform: rotate(-15deg) skew(15deg);
+  transform-style: preserve-3d;
+  position: relative;
+  list-style: none;
+  width: 150px;
+  height: 87px;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  }
+
+  .btn:before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: -5px;
+  width: 100%;
+  height: 10px;
+  background: #9b0404;
+  transform: skewX(-41deg);
+  }
+
+  .btn:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: -9px;
+  width: 9px;
+  height: 100%;
+  background: #9b0404;
+  transform: skewY(-49deg);
+  }
+
+  .btn span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #9b0404;
+  color: #fff;
+  font-size: 25px;
+  transition: 1.1s ease-out;
+  }
+
+  .btn:hover span {
+  z-index: 1000;
+  transition: .3s;
+  color: #fff;
+  }
+
+  .btn:hover span:nth-child(5) {
+  transform: translate(40px, -40px);
+  opacity: 1;
+  }
+
+  .btn:hover span:nth-child(4) {
+  transform: translate(30px, -30px);
+  opacity: .8;
+  }
+
+  .btn:hover span:nth-child(3) {
+  transform: translate(20px, -20px);
+  opacity: .6;
+  }
+
+  .btn:hover span:nth-child(2) {
+  transform: translate(10px, -10px);
+  opacity: .4;
+  }
+
+  .btn:hover span:nth-child(1) {
+  transform: translate(0px, 0px);
+  opacity: .2;
+  }
+
+  .btn:active span:nth-child(5) {
+  transform: translate(20px, -20px);
+  opacity: 1;
+  }
+
+  .btn:active span:nth-child(4) {
+  transform: translate(15px, -15px);
+  }
+
+  .btn:active span:nth-child(3) {
+  transform: translate(10px, -10px);
+  }
+
+  .btn:active span:nth-child(2) {
+  transform: translate(5px, -5px);
+  }
+
+  .btn:active span:nth-child(1) {
+  transform: translate(0px, 0px);
+  }
+
+  .btn:nth-child(1):hover span {
+  background: #9b0404;
+  }
+
+
+
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<div class = "map-overlay top"; style = "position:relative; left:20px; top:15px;">
+  <button class="btn" style="font-size: 2em" ; onclick="move()">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span>Bus Stops: Sainik Farms to NDTV</span>
+    </button>
+  </button>
+</div>
+
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoic29mdGV4cGVyaW1lbnQiLCJhIjoiY2tjMngyZm9rMDFvajJzczJ3aWo0bnh6aiJ9.Bc_qK9Xf8SFBXkFM_x2gpg';
+
+  var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/dark-v10',
+        center: [77.23123243667243, 28.53466299551094],
+        zoom: 13.5
+    });
+  
+  var marker = new mapboxgl.Marker()
+  .setLngLat([77.22088525507522, 28.51697198582174])  
+  .addTo(map);
+
+  const busStops = [
+      [77.22088525507522, 28.51697198582174],
+      [77.22657784729856, 28.516246500593937],
+      [77.22816571493239, 28.520384974470605],
+      [77.23008617673312, 28.5248060804944],
+      [77.23181351925173, 28.533666587334128],
+      [77.23196372302823, 28.53916161265055],
+      [77.22971066747031, 28.54607004558853],
+      [77.22802737017362, 28.552978003794934] 
+    ];
+
+  let counter = 0;
+  function move(){
+    setTimeout(()=>{
+      if (counter >= busStops.length) return;
+      marker.setLngLat(busStops[counter]);
+      counter++;
+      move();
+    },1000); 
+  }
+
+</script>
+
+</body>
+</html>
