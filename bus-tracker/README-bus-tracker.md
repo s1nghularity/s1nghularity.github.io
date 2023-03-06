@@ -4,7 +4,7 @@ This was a challenging exercise that required us to understand how to separate l
 
 ## Run Code
 
-From github, download this repository and **open the index.html** file or go to s1nghularity.github.com. It may not work if the API key isn't functional - if you put your own API key in it should work. 
+From github, download this repository and **open the index.html** file in a local server or go to s1nghularity.github.io/personal-portfolio/. It may not work if the API key isn't functional - if you put your own API key in it should work. 
 
 
 ## Future Changes

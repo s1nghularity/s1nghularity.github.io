@@ -4,7 +4,7 @@ With the MapBox API loaded into the header, we were tasked with marking the bus 
 
 ## Run Code
 
-From github, download this repository and **open the index.html** file or go to s1nghularity.github.com  
+From github, download this repository and **open the index.html** file in a local server or go to s1nghularity.github.io/personal-portfolio/
 
 ## Future Changes
 

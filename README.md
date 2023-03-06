@@ -1,1 +1,1 @@
-# s1nghularity.github.io
+# Please go to s1nghularity.github.io/personal-portfolio/ to see the latest portfolio.

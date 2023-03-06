@@ -4,7 +4,7 @@ The modification of the DIV and DOM continues, incorporating an old pac-man exer
 
 ## Run Code
 
-From github, download this repository and **open the index.html** file or go to s1nghularity.github.com  
+From github, download this repository and **open the index.html** file in a local server or go to s1nghularity.github.io/personal-portfolio/
 
 ## Future Changes
 
